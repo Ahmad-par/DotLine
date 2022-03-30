@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fa">
+        <title>نقطه خط</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="بازی آنلاین نقطه خط">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+    <body>
+        <div id="username-wrapper">
+            <div>
+                <form >
+                    <label>یک نام کاربری انتخاب کنید:</label><br/><br/>
+                    <input type="text" />
+                    <p>* نام انتخابی میتواند تنها شامل حروف، اعداد و کاراکترهای "_" و "." باشد</p><br/>
+                    <button type="submit">انتخاب</button>
+                </form>
+            </div>
+        </div>
+        <div id="select-wrapper" style="display: none;">
+            <div>
+                <div>
+                    <p>تعداد نقاط را انتخاب کنید:</p>
+                    <div class="dims--wrapper">
+                      <span title="36 نقطه">6*6</span>
+                      <span title="49 نقطه">7*7</span>
+                      <span title="64 نقطه">8*8</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="board-wrapper">
+                
+        </div>
+        <div class="players">
+                
+        </div>
+        <div class="scores">
+                
+        </div>
+        <div id="buttons-wrapper">
+            <button type="button" id="restart">بازی جدید</button>
+            <button type="button" id="change-user">تغییر نام کاربری</button>
+        </div>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
