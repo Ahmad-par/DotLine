@@ -8,5 +8,5 @@ In order to run this app locally you should have Node.js and npm installed. Afte
 
 You can also go to this address to play the game:
 
-         https://whispering-hollows-62864.herokuapp.com
+         https://designwithcode.ir/other/dotline
 
